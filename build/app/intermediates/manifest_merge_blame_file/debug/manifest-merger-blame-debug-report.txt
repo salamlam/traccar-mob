@@ -1,0 +1,423 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gennissi.gpspro"
+4    android:versionCode="15"
+5    android:versionName="3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:9:5-10:62
+15-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:10:5-59
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:11:5-12:68
+16-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:12:9-65
+17    <uses-permission android:name="com.android.vending.BILLING" />
+17-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:13:5-67
+17-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:13:22-64
+18
+19    <queries>
+19-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:66:5-86:15
+20
+21        <!-- If your app opens https URLs -->
+22        <intent>
+22-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:68:9-71:18
+23            <action android:name="android.intent.action.VIEW" />
+23-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:69:13-65
+23-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:69:21-62
+24
+25            <data android:scheme="https" />
+25-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:70:13-44
+25-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:70:19-41
+26        </intent>
+27        <intent>
+27-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:72:9-75:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:69:13-65
+28-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:69:21-62
+29
+30            <data android:scheme="intent" />
+30-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:70:13-44
+30-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:70:19-41
+31        </intent>
+32        <!-- If your app makes calls -->
+33        <intent>
+33-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:77:9-80:18
+34            <action android:name="android.intent.action.DIAL" />
+34-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:78:13-65
+34-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:78:21-62
+35
+36            <data android:scheme="tel" />
+36-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:70:13-44
+36-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:70:19-41
+37        </intent>
+38        <!-- If your app emails -->
+39        <intent>
+39-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:82:9-85:18
+40            <action android:name="android.intent.action.SEND" />
+40-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:83:13-65
+40-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:83:21-62
+41
+42            <data android:mimeType="*/*" />
+42-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:70:13-44
+43        </intent>
+44    </queries>
+45
+46    <uses-permission android:name="android.permission.WAKE_LOCK" />
+46-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-68
+46-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-65
+47    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+47-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+47-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+48    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+48-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
+48-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
+49    <uses-permission android:name="android.permission.VIBRATE" />
+49-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-66
+49-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-63
+50    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+50-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+50-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+51-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+52
+53    <uses-feature
+53-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\edaa4cd8df815ba23009809a19dd73ac\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+54        android:glEsVersion="0x00020000"
+54-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\edaa4cd8df815ba23009809a19dd73ac\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+55        android:required="true" />
+55-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\edaa4cd8df815ba23009809a19dd73ac\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+56
+57    <application
+57-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:15:5-65:19
+58        android:name="com.gennissi.gps_pro.Application"
+58-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:16:9-36
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.6.0] C:\Users\harol\.gradle\caches\transforms-3\8b5357b278d4b97508e80fc038f2716e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+60        android:debuggable="true"
+61        android:icon="@mipmap/ic_launcher"
+61-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:19:9-43
+62        android:label="GPS Pro"
+62-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:17:9-32
+63        android:usesCleartextTraffic="true" >
+63-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:18:9-44
+64        <activity
+64-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:20:9-57:20
+65            android:name="com.gennissi.gps_pro.MainActivity"
+65-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:21:13-41
+66            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+66-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:24:13-163
+67            android:exported="true"
+67-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:26:13-36
+68            android:hardwareAccelerated="true"
+68-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:25:13-47
+69            android:launchMode="singleTop"
+69-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:22:13-43
+70            android:theme="@style/LaunchTheme"
+70-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:23:13-47
+71            android:windowSoftInputMode="adjustResize" >
+71-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:27:13-55
+72
+73            <!--
+74                 Specifies an Android theme to apply to this Activity as soon as
+75                 the Android process has started. This theme is visible to the user
+76                 while the Flutter UI initializes. After that, this theme continues
+77                 to determine the Window background behind the Flutter UI.
+78            -->
+79            <meta-data
+79-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:32:13-34:62
+80                android:name="com.google.firebase.messaging.default_notification_icon"
+80-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:33:13-83
+81                android:resource="@drawable/ic_launcher_round" />
+81-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:34:13-59
+82            <meta-data
+82-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:36:13-39:17
+83                android:name="io.flutter.embedding.android.NormalTheme"
+83-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:37:15-70
+84                android:resource="@style/NormalTheme" />
+84-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:38:15-52
+85            <!--
+86                 Displays an Android View that continues showing the launch screen
+87                 Drawable until Flutter paints its first frame, then this splash
+88                 screen fades out. A splash screen is useful to avoid any visual
+89                 gap between the end of Android's launch screen and the painting of
+90                 Flutter's first frame.
+91            -->
+92            <meta-data
+92-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:45:13-48:17
+93                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+93-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:46:15-79
+94                android:resource="@drawable/launch_background" />
+94-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:47:15-61
+95
+96            <intent-filter>
+96-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:49:13-52:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:50:17-68
+97-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:50:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:51:17-76
+99-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:51:27-74
+100            </intent-filter>
+101            <intent-filter>
+101-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:53:13-56:29
+102                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+102-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:54:17-69
+102-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:54:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:55:17-76
+104-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:55:27-73
+105            </intent-filter>
+106        </activity>
+107
+108        <meta-data
+108-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:58:9-59:31
+109            android:name="com.google.android.geo.API_KEY"
+109-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:58:20-65
+110            android:value="" />
+110-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:59:13-29
+111        <!--
+112             Don't delete the meta-data below.
+113             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+114        -->
+115        <meta-data
+115-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:62:9-64:33
+116            android:name="flutterEmbedding"
+116-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:63:13-44
+117            android:value="2" />
+117-->C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\android\app\src\main\AndroidManifest.xml:64:13-30
+118
+119        <service
+119-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-15:72
+120            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+120-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-107
+121            android:exported="false"
+121-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+122            android:permission="android.permission.BIND_JOB_SERVICE" />
+122-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-69
+123        <service
+123-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-22:19
+124            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+124-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-97
+125            android:exported="false" >
+125-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+126            <intent-filter>
+126-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+127                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+127-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-78
+127-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-75
+128            </intent-filter>
+129        </service>
+130
+131        <receiver
+131-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-31:20
+132            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+132-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-98
+133            android:exported="true"
+133-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-36
+134            android:permission="com.google.android.c2dm.permission.SEND" >
+134-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-73
+135            <intent-filter>
+135-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:29
+136                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+136-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-81
+136-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-78
+137            </intent-filter>
+138        </receiver>
+139
+140        <service
+140-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-37:19
+141            android:name="com.google.firebase.components.ComponentDiscoveryService"
+141-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:18-89
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:20.0.0] C:\Users\harol\.gradle\caches\transforms-3\46a25933232a7b9d694e06d1b481c5e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:51:13-37
+144            <meta-data
+144-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-36:85
+145                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+145-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-128
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-82
+147            <meta-data
+147-->[:firebase_core] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+148                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+148-->[:firebase_core] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[:firebase_core] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+151                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+151-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\harol\.gradle\caches\transforms-3\b31c548389135af2185bb523e26d32e7\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+154                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+154-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\harol\.gradle\caches\transforms-3\b31c548389135af2185bb523e26d32e7\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\harol\.gradle\caches\transforms-3\b31c548389135af2185bb523e26d32e7\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\0c31fa8ef905c510c558fedad949562f\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+157                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+157-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\0c31fa8ef905c510c558fedad949562f\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\0c31fa8ef905c510c558fedad949562f\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+159        </service>
+160
+161        <provider
+161-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-43:38
+162            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+162-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-102
+163            android:authorities="com.gennissi.gpspro.flutterfirebasemessaginginitprovider"
+163-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-88
+164            android:exported="false"
+164-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-37
+165            android:initOrder="99" />
+165-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-35
+166
+167        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+167-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-106
+167-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:19-103
+168        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+168-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-20:20
+168-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:19-107
+169            <intent-filter>
+169-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-19:29
+170                <action android:name="android.intent.action.BOOT_COMPLETED" />
+170-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-79
+170-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:25-76
+171                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+171-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-84
+171-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:25-81
+172                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+172-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+172-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:25-79
+173                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+173-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-82
+173-->[:flutter_local_notifications] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:25-79
+174            </intent-filter>
+175        </receiver>
+176
+177        <activity
+177-->[:url_launcher] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\url_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+178            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+178-->[:url_launcher] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\url_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+179            android:exported="false"
+179-->[:url_launcher] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\url_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+180            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+180-->[:url_launcher] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\url_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+181
+182        <receiver
+182-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+183            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+183-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+184            android:exported="true"
+184-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+185            android:permission="com.google.android.c2dm.permission.SEND" >
+185-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+186            <intent-filter>
+186-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:29
+187                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+187-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-81
+187-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-78
+188            </intent-filter>
+189        </receiver>
+190        <!--
+191             FirebaseMessagingService performs security checks at runtime,
+192             but set to not exported to explicitly avoid allowing another app to call it.
+193        -->
+194        <service
+194-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+195            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+195-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+197            android:exported="false" >
+197-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\harol\.gradle\caches\transforms-3\d285fef1b9a1bd9156bb123fdcb44546\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+198            <intent-filter android:priority="-500" >
+198-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+199                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+199-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-78
+199-->[:firebase_messaging] C:\Users\harol\OneDrive\Documentos\Andy Guzman\track_car_mod\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-75
+200            </intent-filter>
+201        </service>
+202
+203        <provider
+203-->[com.google.firebase:firebase-common:20.0.0] C:\Users\harol\.gradle\caches\transforms-3\46a25933232a7b9d694e06d1b481c5e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+204            android:name="com.google.firebase.provider.FirebaseInitProvider"
+204-->[com.google.firebase:firebase-common:20.0.0] C:\Users\harol\.gradle\caches\transforms-3\46a25933232a7b9d694e06d1b481c5e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+205            android:authorities="com.gennissi.gpspro.firebaseinitprovider"
+205-->[com.google.firebase:firebase-common:20.0.0] C:\Users\harol\.gradle\caches\transforms-3\46a25933232a7b9d694e06d1b481c5e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+206            android:directBootAware="true"
+206-->[com.google.firebase:firebase-common:20.0.0] C:\Users\harol\.gradle\caches\transforms-3\46a25933232a7b9d694e06d1b481c5e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+207            android:exported="false"
+207-->[com.google.firebase:firebase-common:20.0.0] C:\Users\harol\.gradle\caches\transforms-3\46a25933232a7b9d694e06d1b481c5e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+208            android:initOrder="100" />
+208-->[com.google.firebase:firebase-common:20.0.0] C:\Users\harol\.gradle\caches\transforms-3\46a25933232a7b9d694e06d1b481c5e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+209
+210        <service
+210-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\00eaa083e55a7fc90dc51b3016af88a8\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+211            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+211-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\00eaa083e55a7fc90dc51b3016af88a8\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+212            android:exported="false" >
+212-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\00eaa083e55a7fc90dc51b3016af88a8\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+213            <meta-data
+213-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\00eaa083e55a7fc90dc51b3016af88a8\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+214                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+214-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\00eaa083e55a7fc90dc51b3016af88a8\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+215                android:value="cct" />
+215-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\00eaa083e55a7fc90dc51b3016af88a8\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+216        </service>
+217        <service
+217-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\ad8999f28bed10b2951796280e24a2f7\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+218            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+218-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\ad8999f28bed10b2951796280e24a2f7\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+219            android:exported="false"
+219-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\ad8999f28bed10b2951796280e24a2f7\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+220            android:permission="android.permission.BIND_JOB_SERVICE" >
+220-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\ad8999f28bed10b2951796280e24a2f7\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+221        </service>
+222
+223        <receiver
+223-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\ad8999f28bed10b2951796280e24a2f7\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+224            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+224-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\ad8999f28bed10b2951796280e24a2f7\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+225            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+225-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harol\.gradle\caches\transforms-3\ad8999f28bed10b2951796280e24a2f7\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+226        <uses-library
+226-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\edaa4cd8df815ba23009809a19dd73ac\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+227            android:name="org.apache.http.legacy"
+227-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\edaa4cd8df815ba23009809a19dd73ac\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+228            android:required="false" />
+228-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\edaa4cd8df815ba23009809a19dd73ac\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+229
+230        <activity
+230-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\6a8decc087c7d688b2bb8e284025a553\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+231            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+231-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\6a8decc087c7d688b2bb8e284025a553\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+232            android:exported="false"
+232-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\6a8decc087c7d688b2bb8e284025a553\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+233            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+233-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\6a8decc087c7d688b2bb8e284025a553\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+234
+235        <meta-data
+235-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\e87c3b3284d29245023585a72dc12c5f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+236            android:name="com.google.android.gms.version"
+236-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\e87c3b3284d29245023585a72dc12c5f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+237            android:value="@integer/google_play_services_version" />
+237-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\harol\.gradle\caches\transforms-3\e87c3b3284d29245023585a72dc12c5f\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+238    </application>
+239
+240</manifest>

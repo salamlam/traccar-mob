@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">970681315746-h9o9g46vun7knmmliqr50pt4fvpht577.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gpspro-c3647.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">970681315746</string>
+    <string name="google_api_key" translatable="false">AIzaSyBJYyEpieBw3XZa5xH0WFLbx8SQsFfLjGQ</string>
+    <string name="google_app_id" translatable="false">1:970681315746:android:a71658468fbd55811702fb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBJYyEpieBw3XZa5xH0WFLbx8SQsFfLjGQ</string>
+    <string name="google_storage_bucket" translatable="false">gpspro-c3647.appspot.com</string>
+    <string name="project_id" translatable="false">gpspro-c3647</string>
+</resources>

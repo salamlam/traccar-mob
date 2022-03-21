@@ -1,0 +1,7 @@
+#Fri Mar 11 16:26:17 COT 2022
+base.1=C\:\\Users\\harol\\OneDrive\\Documentos\\Andy Guzman\\track_car_mod\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+path.1=classes2.dex
+base.0=C\:\\Users\\harol\\OneDrive\\Documentos\\Andy Guzman\\track_car_mod\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

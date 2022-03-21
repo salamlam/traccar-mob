@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\harol\\OneDrive\\Documentos\\Andy Guzman\\track_car_mod\\build\\shared_preferences\\intermediates\\merged_res\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\harol\\.gradle\\caches\\transforms-3\\8b5357b278d4b97508e80fc038f2716e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\harol\\OneDrive\\Documentos\\Andy Guzman\\track_car_mod\\build\\shared_preferences\\intermediates\\merged_res\\debug\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\harol\\.gradle\\caches\\transforms-3\\8b5357b278d4b97508e80fc038f2716e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\harol\\OneDrive\\Documentos\\Andy Guzman\\track_car_mod\\build\\shared_preferences\\intermediates\\merged_res\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\harol\\.gradle\\caches\\transforms-3\\8b5357b278d4b97508e80fc038f2716e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\harol\\OneDrive\\Documentos\\Andy Guzman\\track_car_mod\\build\\shared_preferences\\intermediates\\merged_res\\debug\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\harol\\.gradle\\caches\\transforms-3\\8b5357b278d4b97508e80fc038f2716e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\harol\\OneDrive\\Documentos\\Andy Guzman\\track_car_mod\\build\\shared_preferences\\intermediates\\merged_res\\debug\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\harol\\.gradle\\caches\\transforms-3\\8b5357b278d4b97508e80fc038f2716e\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    }
+]
