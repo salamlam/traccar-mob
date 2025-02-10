@@ -45,7 +45,6 @@ dependencies:
   flutter_redux: ^0.8.2
   redux_logging: ^0.5.0
   percent_indicator: 3.0.1
-  jiffy: ^4.1.0
   android_intent: ^2.0.0
   permission_handler: ^8.1.4+2
   geolocator: ^7.0.1
