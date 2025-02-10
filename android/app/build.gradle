@@ -20,10 +20,11 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
     flutterVersionName = '3.0.1'
 }
-
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+plugins {
+id 'com.android.application'
+id 'kotlin-android'
+id 'com.google.gms.google-services' // Si tu utilises Firebase
+}
 
 android {
     compileSdkVersion 30
